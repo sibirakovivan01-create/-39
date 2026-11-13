@@ -1,0 +1,7 @@
+git checkout -b vetka
+
+echo "Строка 1 файла file1. Версия vetka." > file1.txt
+echo "Строка 1 файла file2. Версия vetka." > file2.txt
+
+git add file1.txt file2.txt
+git commit -m "Второй коммит в ветке"
