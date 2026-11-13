@@ -1,0 +1,6 @@
+# создаём файлы с корректным содержимым
+echo "Строка 1 файла file1. Версия main." > file1.txt
+echo "Строка 1 файла file2. Версия main." > file2.txt
+
+git add file1.txt file2.txt
+git commit -m "Первый коммит"
